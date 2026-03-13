@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ycgoyd7xyjpd"
-path="res://.godot/imported/saionline.icon.png-5e0a797f0afad2560a3159f2a6090fb8.ctex"
+path="res://.godot/imported/saionline.icon.png-764f38e8af7333e5618930c81f3aaf85.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://html/saionline.icon.png"
-dest_files=["res://.godot/imported/saionline.icon.png-5e0a797f0afad2560a3159f2a6090fb8.ctex"]
+source_file="res://docs/saionline.icon.png"
+dest_files=["res://.godot/imported/saionline.icon.png-764f38e8af7333e5618930c81f3aaf85.ctex"]
 
 [params]
 
