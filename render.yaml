@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: saionline-server
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: RESET_DELAY_SEC
+        value: 60
+      - key: DB_PATH
+        value: /data/game.db
+    disk:
+      name: saionline-data
+      mountPath: /data
+      sizeGB: 1
