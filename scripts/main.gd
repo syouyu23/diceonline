@@ -561,6 +561,8 @@ func _setup_name_overlay() -> void:
 	name_panel.mouse_filter = Control.MOUSE_FILTER_STOP
 	name_input.focus_mode = Control.FOCUS_ALL
 	name_button.focus_mode = Control.FOCUS_ALL
+	name_input.focus_entered.connect(func(): DisplayServer.virtual_keyboard_show(name_input.text))
+	name_input.focus_exited.connect(func(): DisplayServer.virtual_keyboard_hide())
 	name_button.disabled = false
 	if has_name:
 		name_input.text = player_name
