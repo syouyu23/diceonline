@@ -1,6 +1,6 @@
 extends Control
 
-@export var server_url: String = "wss://saionline-server.onrender.com"
+@export var server_url: String = "wss://diceonline-cr8a.onrender.com"
 
 @onready var status_label: Label = $RootMargin/RootVBox/Header/StatusLabel
 @onready var roll_button: Button = $RootMargin/RootVBox/MainRow/LeftCol/RollRow/RollButton
